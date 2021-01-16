@@ -39,6 +39,11 @@ def get(*args, **kwargs):
     http_response = http_client.get(*args, **kwargs)
 
 @step
+def head(*args, **kwargs):
+    '''Perform HTTP HEAD'''
+    http_response = http_client.head(*args, **kwargs)
+
+@step
 def get_created(*args, **kwargs):
     '''Perform HTTP GET of `location` header.'''
     http_response = http_client.get(
