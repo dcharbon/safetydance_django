@@ -52,6 +52,10 @@ def get_created(*args, **kwargs):
             **kwargs)
 
 @step
+def options(*args, **kwargs):
+    http_response = http_client.options(*args, **kwargs)
+
+@step
 def post(*args, **kwargs):
     http_response = http_client.post(*args, **kwargs)
 
