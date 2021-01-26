@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "safetydance-django"
-version = "0.0.5"
+version = "0.0.6"
 description = "A collection of safetydance_test steps for BDD testing of Django REST Framework applications."
 authors = ["David Charboneau <david@adadabase.com>"]
 license = "mit"
