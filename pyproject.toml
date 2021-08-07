@@ -6,10 +6,8 @@ authors = ["David Charboneau <david@adadabase.com>"]
 license = "mit"
 
 [tool.poetry.dependencies]
-astor = { git="https://github.com/Quansight/astor.git", branch="issue-174" }
 python = "^3.7"
 djangorestframework = "^3.12.2"
-safetydance = { git="https://gitlab.com/openteams/safetydance.git" }
 safetydance-test = { git="https://gitlab.com/openteams/safetydance_test.git" }
 
 [tool.poetry.dev-dependencies]
